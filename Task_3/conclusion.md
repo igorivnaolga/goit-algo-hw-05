@@ -21,11 +21,15 @@ The execution time for each test was measured using Python’s timeit module.
 ## Test Results
 
 Pattern | KMP Time | Boyer-Moore Time | Rabin-Karp Time
+
 ✅ Real Substring | 0.001843s | 0.000502s ⭐ | 0.005820s
+
 ❌ Fake Substring | 0.068129s | 0.023279s ⭐ | 0.241063s
 
 Pattern | KMP Time | Boyer-Moore Time| Rabin-Karp Time
+
 ✅ Real Substring | 0.151614s | 0.058285s ⭐ | 0.383087s
+
 ❌ Fake Substring | 0.165225s | 0.035184s ⭐ | 0.305916s
 
 ## Conclusions
